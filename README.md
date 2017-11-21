@@ -26,5 +26,5 @@ Lancement et compilation du programme :
 - Se positionner sur le répertoire où se trouve le code source de l'application.
 - Compiler le code source à l'aide de la commande javac "codesource".
 - Le résultat de la compilation crée un fichier dans le répertoire du code source.
-- Toujours dans la console on exécute le programme avec la commande java "nomDuFichier.java".
+- Toujours dans la console on exécute le programme avec la commande java "nomDuFichier".
 
