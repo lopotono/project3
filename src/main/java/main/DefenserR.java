@@ -5,15 +5,20 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
+
 public class DefenserR implements Mode {
+
+	private static Logger logger = Logger.getLogger(Logger.class);
 
 	public void run() {
 
 		User gamer1 = new User();
 		IA gamer2 = new IA();
 
-		// Etape 1 : saisir la combinaison
+		// Saisir la combinaison
 		System.out.println("\nSaisir une combinaison à 4 chiffres : ");
+		logger.info("L'utilisateur a saisi une combinaison.");
 
 		ArrayList<Integer> code = gamer1.getCode();
 
@@ -28,7 +33,7 @@ public class DefenserR implements Mode {
 		}
 
 		int nombreEssais = Integer.parseInt(properties.getProperty("nombreEssais"));
-		// TODO : Récupérer cette valeur dans un fichier de configuration.
+		logger.info("Chargement des propriétés : " + "nombre d'essais : " + nombreEssais);
 
 		// Lancer le jeu
 		ArrayList<Integer> proposition = null;
@@ -36,10 +41,10 @@ public class DefenserR implements Mode {
 
 		while (nombreEssais > 0) {
 
-			// Etape 4 : Faire proposition
+			// Faire une proposition
 			proposition = gamer2.generateCode(proposition, result);
 
-			// Etape 5 : Vérifier la proposition
+			// Vérifier la proposition
 			result = "";
 			System.out.print("Proposition : ");
 			for (int j = 0; j < 4; j++) {
@@ -56,20 +61,19 @@ public class DefenserR implements Mode {
 					result += "+";
 			}
 			System.out.println(result);
-			// Etape 6 : Afficher le retour (combinaison trouvé ou non")
+			logger.info("Affichage de la proposition IA.");
+			// Afficher le retour (combinaison trouvé ou non)
 
-			// System.out.println(result);
 			if (result.equals("====")) {
 				System.out.println("BRAVO c'est gagné !");
+				logger.info("IA a gagné.");
 				nombreEssais = 0;
 			}
 			nombreEssais--;
 
 			if (nombreEssais == 0) {
-				System.out.print("PERDU !!!!" + " La combinaison de User était : ");
-				for (int i = 0; i < 4; i++) {
-					System.out.print(code.get(i));
-				}
+				System.out.print("PERDU !!!!");
+				logger.info("IA a perdu.");
 			}
 		}
 	}

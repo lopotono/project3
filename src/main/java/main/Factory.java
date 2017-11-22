@@ -18,9 +18,7 @@ public class Factory {
 			mode = new DefenserM();
 		} else if (game == '2' && choice == '3') {
 			mode = new DuelM();
-		} else if (game == '1' && choice == '4') {
-			mode = new Developer();
-		}
+		} 
 		return mode;
 	}
 }

@@ -5,7 +5,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
+
 public class DefenserM implements Mode {
+	
+	private static Logger logger = Logger.getLogger(Logger.class);
 
 	public void run() {
 
@@ -14,6 +18,7 @@ public class DefenserM implements Mode {
 
 		// Saisir une combinaison
 		System.out.println("\nSaisir une combinaison à 4 chiffres : ");
+		logger.info("L'utilisateur a saisi une combinaison.");
 
 		ArrayList<Integer> code = gamer1.getCode();
 
@@ -28,7 +33,8 @@ public class DefenserM implements Mode {
 		}
 
 		int nombreEssaisM = Integer.parseInt(properties.getProperty("nombreEssaisM"));
-		// TODO : Récupérer cette valeur dans un fichier de configuration.
+		logger.info("Chargement des propriétés : "+"nombre d'essais : "+nombreEssaisM);
+		
 		ArrayList<Integer> proposition = null;
 
 		// Lancement du jeu
@@ -53,19 +59,19 @@ public class DefenserM implements Mode {
 				}
 			}
 			System.out.print(" -> réponse : " + bienPlace + " bien placé(s) " + present + " présent(s) ");
+			logger.info("Affichage de la proposition IA.");
 			System.out.println();
 
 			if (bienPlace == 4) {
 				System.out.println("\nBRAVO c'est gagné !");
+				logger.info("IA a gagné.");
 				nombreEssaisM = 0;
 			}
 			nombreEssaisM--;
 
 			if (nombreEssaisM == 0) {
-				System.out.print("PERDU !!!!" + " La combinaison de User était : ");
-				for (int i = 0; i < 4; i++) {
-					System.out.print(code.get(i));
-				}
+				System.out.print("PERDU !!!!");
+				logger.info("IA a perdu.");				
 			}
 		}
 	}

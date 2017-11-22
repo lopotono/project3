@@ -5,7 +5,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
+
 public class ChallengerM implements Mode {
+	
+	private static Logger logger = Logger.getLogger(Logger.class);
 
 	public void run() {
 
@@ -25,15 +29,22 @@ public class ChallengerM implements Mode {
 			System.out.println("Erreur");
 		}
 
-		// Déterminer le nombre limité d'essai
-
 		int nombreEssaisM = Integer.parseInt(properties.getProperty("nombreEssaisM"));
-		// TODO : Récupérer cette valeur dans un fichier de configuration.
+		logger.info("Chargement des propriétés : "+"nombre d'essais : "+nombreEssaisM);
+		
+		String developerMode = properties.getProperty("developerMode");
+		if (developerMode.equals("true")) {
+			System.out.print("La combinaison de IA est : ");
+			for (int i = 0; i < 4; i++) {
+				System.out.print(code.get(i));
+			}			
+		}
 
 		while (nombreEssaisM > 0) {
 
 			System.out.println("\nSaisir une combinaison à 4 chiffres : ");
 			ArrayList<Integer> proposition = gamer1.getCode();
+			logger.info("L'utilisateur a saisi une combinaison.");
 
 			int bienPlace = 0;
 			int present = 0;
@@ -55,15 +66,19 @@ public class ChallengerM implements Mode {
 				}
 			}
 			System.out.print(bienPlace + " bien placé(s) " + present + " présent(s) ");
-
+			logger.info("Affichage de la proposition User.");
+			
 			if (bienPlace == 4) {
 				System.out.println("\nBRAVO c'est gagné !");
+				logger.info("User a gagné.");
 				nombreEssaisM = 0;
 			}
 			nombreEssaisM--;
 
 			if (nombreEssaisM == 0) {
 				System.out.print("\nPERDU !!!!" + " La combinaison de l'IA était : ");
+				logger.info("User a perdu");
+				logger.info("Affichage de la bonne combinaison.");
 				for (int i = 0; i < 4; i++) {
 					System.out.print(code.get(i));
 				}

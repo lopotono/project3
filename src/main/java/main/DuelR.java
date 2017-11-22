@@ -5,7 +5,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
+
 public class DuelR implements Mode {
+	
+	private static Logger logger = Logger.getLogger(Logger.class);
 
 	public void run() {
 
@@ -16,6 +20,7 @@ public class DuelR implements Mode {
 
 		System.out.println("\nSaisir la combinaison à faire deviner à IA : ");
 		ArrayList<Integer> code = gamer1.getCode();
+		logger.info("L'utilisateur a saisi une combinaison à faire deviner à IA.");
 
 		System.out.print("Votre combinaison : ");
 		for (int i = 0; i < 4; i++) {
@@ -33,8 +38,15 @@ public class DuelR implements Mode {
 		}
 
 		int nombreEssais = Integer.parseInt(properties.getProperty("nombreEssais"));
-		// TODO : Récupérer cette valeur dans un fichier de configuration.
-		// nombre total d'essais
+		logger.info("Chargement des propriétés : "+"nombre d'essais : "+nombreEssais);
+
+		String developerMode = properties.getProperty("developerMode");
+		if (developerMode.equals("true")) {
+			System.out.print("La combinaison de IA est : ");
+			for (int i = 0; i < 4; i++) {
+				System.out.print(code.get(i));
+			}			
+		}
 
 		ArrayList<Integer> propositionIA = null;
 		String resultUser = null;
@@ -63,7 +75,8 @@ public class DuelR implements Mode {
 					resultUser += "+";
 			}
 			System.out.println(resultUser);
-
+			logger.info("Affichage de la proposition User.");
+			
 			propositionIA = gamer2.generateCode(propositionIA, resultIA);
 			// vérification de la proposition IA
 			System.out.print("\nProposition IA : ");
@@ -82,12 +95,15 @@ public class DuelR implements Mode {
 					resultIA += "+";
 			}
 			System.out.println(resultIA);
-
+			logger.info("Affichage de la proposition IA.");
+			
 			if (resultIA.equals("====")) {
 				System.out.println("BRAVO IA a gagné !");
+				logger.info("IA a gagné.");
 				nombreEssais = 0;
 			} else if (resultUser.equals("====")) {
 				System.out.println("BRAVO vous avez gagné !");
+				logger.info("User a gagné.");
 				nombreEssais = 0;
 			}
 			nombreEssais--;
