@@ -1,0 +1,477 @@
+Lancement des jeux
+2017-11-21 10:52 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+Vous avez choisi le jeu Recherche+/-
+
+2017-11-21 10:52 - 3902 [main] INFO  org.apache.log4j.Logger  - Vous avez choisi le jeu Recherche+/-
+
+Vous avez choisi Mode challenger
+2017-11-21 10:52 - 5514 [main] INFO  org.apache.log4j.Logger  - Vous avez choisi Mode challenger
+Vous devez trouver la combinaison secrète de l'ordinateur.
+2017-11-21 10:52 - 5514 [main] INFO  org.apache.log4j.Logger  - Vous devez trouver la combinaison secrète de l'ordinateur.
+Fin du jeu.
+2017-11-21 10:52 - 15329 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+Lancement des jeux
+2017-11-21 10:55 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+Vous avez choisi le jeu Recherche+/-
+
+2017-11-21 10:55 - 2147 [main] INFO  org.apache.log4j.Logger  - Vous avez choisi le jeu Recherche+/-
+
+Vous avez choisi Mode challenger
+2017-11-21 10:55 - 3055 [main] INFO  org.apache.log4j.Logger  - Vous avez choisi Mode challenger
+Vous devez trouver la combinaison secrète de l'ordinateur.
+2017-11-21 10:55 - 3055 [main] INFO  org.apache.log4j.Logger  - Vous devez trouver la combinaison secrète de l'ordinateur.
+Passage des propriétés :10
+2017-11-21 10:55 - 3055 [main] INFO  org.apache.log4j.Logger  - Passage des propriétés :10
+Fin du jeu.
+2017-11-21 10:55 - 9556 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+Lancement des jeux
+2017-11-21 11:02 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+Vous avez choisi le jeu Recherche+/-
+
+2017-11-21 11:02 - 6859 [main] INFO  org.apache.log4j.Logger  - Vous avez choisi le jeu Recherche+/-
+
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 11:02 - 8021 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+User a trouvé la bonne réponse
+2017-11-21 11:02 - 14833 [main] INFO  org.apache.log4j.Logger  - User a trouvé la bonne réponse
+Fin du jeu.
+2017-11-21 11:02 - 18266 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+Lancement des jeux
+2017-11-21 11:10 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-21 11:11 - 7955 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 11:11 - 17417 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+User a trouvé la bonne réponse
+2017-11-21 11:11 - 22830 [main] INFO  org.apache.log4j.Logger  - User a trouvé la bonne réponse
+Fin du jeu.
+2017-11-21 11:11 - 25426 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+Lancement des jeux
+2017-11-21 11:13 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+Lancement des jeux
+2017-11-21 11:13 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+Lancement des jeux
+2017-11-21 11:13 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+Lancement des jeux
+2017-11-21 11:13 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+Lancement des jeux
+2017-11-21 11:13 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+Lancement des jeux
+2017-11-21 14:23 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-21 14:23 - 3474 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+L'utilisateur a choisi le mode challenger.
+2017-11-21 14:23 - 10456 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode challenger.
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 14:23 - 10495 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+User a trouvé la bonne réponse
+2017-11-21 14:24 - 37229 [main] INFO  org.apache.log4j.Logger  - User a trouvé la bonne réponse
+Fin du jeu.
+2017-11-21 14:24 - 42425 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+Lancement des jeux
+2017-11-21 14:29 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-21 14:29 - 4275 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+L'utilisateur a choisi le mode défenseur.
+2017-11-21 14:29 - 5689 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode défenseur.
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 14:29 - 11825 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+L'utilisateur a choisi le mode challenger.
+2017-11-21 14:29 - 22878 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode challenger.
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 14:29 - 22890 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:29 - 31813 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+L'utilisateur a trouvé la bonne réponse
+2017-11-21 14:29 - 31813 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a trouvé la bonne réponse
+Lancement des jeux
+2017-11-21 14:38 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-21 14:38 - 3548 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+L'utilisateur a choisi le mode challenger.
+2017-11-21 14:38 - 6524 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode challenger.
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 14:38 - 6542 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:38 - 10388 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:38 - 10402 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:39 - 16419 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:39 - 16419 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:39 - 22669 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:39 - 22669 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:39 - 32426 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:39 - 32426 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:39 - 39749 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:39 - 39762 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:39 - 44216 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:39 - 44218 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:39 - 47485 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:39 - 47490 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a trouvé la bonne réponse
+2017-11-21 14:39 - 47490 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a trouvé la bonne réponse
+Fin du jeu.
+2017-11-21 14:39 - 51303 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+Lancement des jeux
+2017-11-21 14:44 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-21 14:44 - 4755 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+L'utilisateur a choisi le mode duel.
+2017-11-21 14:44 - 6971 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode duel.
+L'utilisateur a saisi une combinaison à faire deviner à IA.
+2017-11-21 14:44 - 12515 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison à faire deviner à IA.
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 14:44 - 12525 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+Affichage de la réponse de la proposition User.
+2017-11-21 14:44 - 16413 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:44 - 16413 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:44 - 28181 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:44 - 28181 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:44 - 34214 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:44 - 34221 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:45 - 39378 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:45 - 39389 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+User a gagné.
+2017-11-21 14:45 - 39389 [main] INFO  org.apache.log4j.Logger  - User a gagné.
+Fin du jeu.
+2017-11-21 14:45 - 44530 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+Lancement des jeux
+2017-11-21 14:55 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+L'utilisateur a choisi le jeu Mastermind
+
+2017-11-21 14:55 - 3899 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Mastermind
+
+L'utilisateur a choisi le mode challenger.
+2017-11-21 14:55 - 6009 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode challenger.
+Chargement des propriétés : nombre d'essais : 12
+2017-11-21 14:55 - 6013 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 12
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:56 - 8529 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:56 - 8539 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:56 - 17087 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:56 - 17087 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:56 - 25547 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:56 - 25547 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:56 - 32540 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:56 - 32555 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+Lancement des jeux
+2017-11-21 14:56 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-21 14:56 - 1770 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+L'utilisateur a choisi le mode défenseur.
+2017-11-21 14:56 - 6310 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode défenseur.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:56 - 6324 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 14:56 - 10324 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:56 - 10324 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:56 - 10331 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:56 - 10331 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:56 - 10331 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:56 - 10331 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:56 - 10332 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:56 - 10332 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:56 - 10332 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:56 - 10332 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:56 - 10333 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+IA a perdu.
+2017-11-21 14:56 - 10333 [main] INFO  org.apache.log4j.Logger  - IA a perdu.
+Lancement des jeux
+2017-11-21 14:57 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-21 14:57 - 1749 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+L'utilisateur a choisi le mode défenseur.
+2017-11-21 14:57 - 3106 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode défenseur.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:57 - 3107 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 14:57 - 5045 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:57 - 5058 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:57 - 5058 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:57 - 5058 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:57 - 5058 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:57 - 5058 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:57 - 5059 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:57 - 5059 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:57 - 5059 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:57 - 5059 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:57 - 5059 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+IA a perdu.
+2017-11-21 14:57 - 5059 [main] INFO  org.apache.log4j.Logger  - IA a perdu.
+Fin du jeu.
+2017-11-21 14:57 - 10190 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+Lancement des jeux
+2017-11-21 14:58 - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-21 14:58 - 2059 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+L'utilisateur a choisi le mode duel.
+2017-11-21 14:58 - 3017 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode duel.
+L'utilisateur a saisi une combinaison à faire deviner à IA.
+2017-11-21 14:59 - 6204 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison à faire deviner à IA.
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 14:59 - 6205 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+Affichage de la réponse de la proposition User.
+2017-11-21 14:59 - 9397 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:59 - 9397 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:59 - 15149 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:59 - 15149 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:59 - 21405 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:59 - 21405 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:59 - 25917 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:59 - 25917 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:59 - 29661 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+Affichage de la réponse de la proposition IA.
+2017-11-21 14:59 - 29661 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition IA.
+User a gagné.
+2017-11-21 14:59 - 29661 [main] INFO  org.apache.log4j.Logger  - User a gagné.
+L'utilisateur a choisi le mode challenger.
+2017-11-21 14:59 - 35519 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode challenger.
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 14:59 - 35526 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:59 - 39199 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:59 - 39205 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:59 - 46629 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:59 - 46629 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:59 - 51779 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:59 - 51779 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 14:59 - 57321 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la réponse de la proposition User.
+2017-11-21 14:59 - 57321 [main] INFO  org.apache.log4j.Logger  - Affichage de la réponse de la proposition User.
+L'utilisateur a trouvé la bonne réponse
+2017-11-21 14:59 - 57325 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a trouvé la bonne réponse
+Fin du jeu.
+2017-11-21 14:59 - 61619 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+Lancement des jeux
+2017-11-21 15:48 - Main - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-21 15:48 - Main - 3643 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+L'utilisateur a choisi le mode challenger.
+2017-11-21 15:48 - Main - 5092 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode challenger.
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 15:48 - ChallengerR - 5096 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+L'utilisateur a saisi une combinaison.
+2017-11-21 15:48 - ChallengerR - 8754 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la proposition User.
+2017-11-21 15:48 - ChallengerR - 8755 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 15:48 - ChallengerR - 17314 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la proposition User.
+2017-11-21 15:48 - ChallengerR - 17328 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 15:48 - ChallengerR - 23091 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la proposition User.
+2017-11-21 15:48 - ChallengerR - 23091 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 15:48 - ChallengerR - 29354 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la proposition User.
+2017-11-21 15:48 - ChallengerR - 29355 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 15:48 - ChallengerR - 33859 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la proposition User.
+2017-11-21 15:48 - ChallengerR - 33859 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 15:48 - ChallengerR - 36706 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la proposition User.
+2017-11-21 15:48 - ChallengerR - 36707 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+L'utilisateur a trouvé la bonne réponse
+2017-11-21 15:48 - ChallengerR - 36709 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a trouvé la bonne réponse
+Fin du jeu.
+2017-11-21 15:48 - Main - 39323 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+Lancement des jeux
+2017-11-21 15:51 - Main - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-21 15:52 - Main - 9706 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+L'utilisateur a choisi le mode défenseur.
+2017-11-21 15:52 - Main - 12036 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode défenseur.
+L'utilisateur a saisi une combinaison.
+2017-11-21 15:52 - DefenserR - 12038 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 15:52 - DefenserR - 15035 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+Affichage de la proposition IA.
+2017-11-21 15:52 - DefenserR - 15035 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+Affichage de la proposition IA.
+2017-11-21 15:52 - DefenserR - 15036 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+Affichage de la proposition IA.
+2017-11-21 15:52 - DefenserR - 15038 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+Affichage de la proposition IA.
+2017-11-21 15:52 - DefenserR - 15038 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+Affichage de la proposition IA.
+2017-11-21 15:52 - DefenserR - 15038 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+Affichage de la proposition IA.
+2017-11-21 15:52 - DefenserR - 15039 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+Affichage de la proposition IA.
+2017-11-21 15:52 - DefenserR - 15039 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+Affichage de la proposition IA.
+2017-11-21 15:52 - DefenserR - 15039 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+Affichage de la proposition IA.
+2017-11-21 15:52 - DefenserR - 15039 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+Affichage de la proposition IA.
+2017-11-21 15:52 - DefenserR - 15040 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+IA a perdu.
+2017-11-21 15:52 - DefenserR - 15040 [main] INFO  org.apache.log4j.Logger  - IA a perdu.
+Fin du jeu.
+2017-11-21 15:52 - Main - 30761 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+Lancement des jeux
+2017-11-21 16:48 - Main - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-21 16:48 - Main - 3137 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+L'utilisateur a choisi le mode challenger.
+2017-11-21 16:48 - Main - 4173 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode challenger.
+Chargement des propriétés : nombre d'essais : 10
+2017-11-21 16:48 - ChallengerR - 4192 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+L'utilisateur a saisi une combinaison.
+2017-11-21 16:48 - ChallengerR - 6977 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la proposition User.
+2017-11-21 16:48 - ChallengerR - 6978 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 16:48 - ChallengerR - 13769 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la proposition User.
+2017-11-21 16:48 - ChallengerR - 13771 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 16:49 - ChallengerR - 18097 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la proposition User.
+2017-11-21 16:49 - ChallengerR - 18097 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+L'utilisateur a saisi une combinaison.
+2017-11-21 16:49 - ChallengerR - 21137 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+Affichage de la proposition User.
+2017-11-21 16:49 - ChallengerR - 21137 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+L'utilisateur a trouvé la bonne réponse.
+2017-11-21 16:49 - ChallengerR - 21138 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a trouvé la bonne réponse.
+Fin du jeu.
+2017-11-21 16:49 - Main - 24169 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+2017-11-22 10:55 - Main - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+2017-11-22 10:55 - Main - 3169 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-22 10:55 - Main - 6168 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode challenger.
+2017-11-22 10:55 - ChallengerR - 6184 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+2017-11-22 10:55 - ChallengerR - 9027 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+2017-11-22 10:55 - ChallengerR - 9027 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 10:56 - ChallengerR - 16633 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+2017-11-22 10:56 - ChallengerR - 16633 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 10:56 - ChallengerR - 22539 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+2017-11-22 10:56 - ChallengerR - 22539 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 10:56 - ChallengerR - 28136 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+2017-11-22 10:56 - ChallengerR - 28141 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 10:56 - ChallengerR - 33970 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+2017-11-22 10:56 - ChallengerR - 33970 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 10:56 - ChallengerR - 37630 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+2017-11-22 10:56 - ChallengerR - 37630 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 10:56 - ChallengerR - 40372 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+2017-11-22 10:56 - ChallengerR - 40372 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 10:56 - ChallengerR - 40372 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a trouvé la bonne réponse.
+2017-11-22 10:56 - Main - 42728 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
+2017-11-22 10:59 - Main - 0    [main] INFO  org.apache.log4j.Logger  - Lancement des jeux
+2017-11-22 10:59 - Main - 4805 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le jeu Recherche+/-
+
+2017-11-22 10:59 - Main - 8945 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode défenseur.
+2017-11-22 10:59 - DefenserR - 8949 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison.
+2017-11-22 10:59 - DefenserR - 11496 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+2017-11-22 10:59 - DefenserR - 11496 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 10:59 - DefenserR - 11500 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 10:59 - DefenserR - 11501 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 10:59 - DefenserR - 11501 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 10:59 - DefenserR - 11501 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 10:59 - DefenserR - 11501 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 10:59 - DefenserR - 11501 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 10:59 - DefenserR - 11501 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 10:59 - DefenserR - 11501 [main] INFO  org.apache.log4j.Logger  - IA a gagné.
+2017-11-22 10:59 - Main - 27590 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a choisi le mode duel.
+2017-11-22 10:59 - DuelR - 30277 [main] INFO  org.apache.log4j.Logger  - L'utilisateur a saisi une combinaison à faire deviner à IA.
+2017-11-22 10:59 - DuelR - 30292 [main] INFO  org.apache.log4j.Logger  - Chargement des propriétés : nombre d'essais : 10
+2017-11-22 10:59 - DuelR - 33450 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 10:59 - DuelR - 33451 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 10:59 - DuelR - 40139 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 10:59 - DuelR - 40147 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 11:00 - DuelR - 45085 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 11:00 - DuelR - 45091 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 11:00 - DuelR - 48539 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 11:00 - DuelR - 48539 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 11:00 - DuelR - 51087 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 11:00 - DuelR - 51099 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 11:00 - DuelR - 56209 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition User.
+2017-11-22 11:00 - DuelR - 56219 [main] INFO  org.apache.log4j.Logger  - Affichage de la proposition IA.
+2017-11-22 11:00 - DuelR - 56219 [main] INFO  org.apache.log4j.Logger  - User a gagné.
+2017-11-22 11:00 - Main - 59867 [main] WARN  org.apache.log4j.Logger  - Fin du jeu.
