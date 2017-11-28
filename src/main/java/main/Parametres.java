@@ -6,8 +6,8 @@ import java.util.Properties;
 
 public class Parametres {
 
-	public void properties() {
-		
+	public Properties getProperties() {
+
 		Properties properties = new Properties();
 
 		try {
@@ -16,6 +16,7 @@ public class Parametres {
 			in.close();
 		} catch (IOException e) {
 			System.out.println("Erreur de chargement du fichier de configuration !");
-		}				
+		}
+		return properties;
 	}
 }

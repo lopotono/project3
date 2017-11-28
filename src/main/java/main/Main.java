@@ -1,5 +1,6 @@
 package main;
 
+import java.util.Properties;
 import java.util.Scanner; 
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
@@ -13,7 +14,8 @@ public class Main {
 		DOMConfigurator.configure("D://workspace/fr.projet3/src/main/resources/log4j.xml");
 		
 		new FileLog();						
-		new Parametres();
+		Parametres param = new Parametres();
+		Properties properties = param.getProperties();
 	
 		String game1 = "Recherche+/-";
 		String game2 = "Mastermind";
@@ -64,31 +66,34 @@ public class Main {
 					if (choice != '1' && choice != '2' && choice != '3' && choice != '4')
 						logger.error("Vous devez taper 1, 2 ou 3");
 
-					Mode modeGame = Factory.get(game, choice);
-
+					Mode modeGame = Factory.get(game, choice);					
+							
 					if (choice == '1' && game == '1') {
 						System.out.println("Vous avez choisi " + choiceC);
 						System.out.println("Vous devez trouver la combinaison secrète de l'ordinateur.");
 						logger.info("L'utilisateur a choisi le mode challenger.");
 						modeGame = new ChallengerR();
+						ChallengerR.run(properties);
 
 					} else if (choice == '2' && game == '1') {
 						System.out.println("Vous avez choisi " + choiceD);
 						System.out.println("C'est à l'ordinateur de trouver votre combinaison secrète.");
 						logger.info("L'utilisateur a choisi le mode défenseur.");
-						modeGame = new DefenserR();
+						modeGame = new DefenserR();	
 
 					} else if (choice == '3' && game == '1') {
 						System.out.println("Vous avez choisi " + choiceDu);
 						System.out.println("L'ordinateur et vous jouez tour à tour, le premier à trouver la combinaison secrète de l'autre a gagné.");
 						logger.info("L'utilisateur a choisi le mode duel.");
 						modeGame = new DuelR();
+						DuelR.run(properties);
 
 					} else if (choice == '1' && game == '2') {
 						System.out.println("Vous avez choisi " + choiceC);
 						System.out.println("Vous devez trouver la combinaison secrète de l'ordinateur.");
 						logger.info("L'utilisateur a choisi le mode challenger.");
 						modeGame = new ChallengerM();
+						ChallengerM.run(properties);
 
 					} else if (choice == '2' && game == '2') {
 						System.out.println("Vous avez choisi " + choiceD);
@@ -101,9 +106,10 @@ public class Main {
 						System.out.println("L'ordinateur et vous jouez tour à tour, le premier à trouver la combinaison secrète de l'autre a gagné.");
 						logger.info("L'utilisateur a choisi le mode duel.");
 						modeGame = new DuelM();
+						DuelM.run(properties);
 					} 
 					modeGame.run();
-
+										
 					do {
 						System.out.println();
 						System.out.println("Voulez-vous rejouer ? (o/n)");

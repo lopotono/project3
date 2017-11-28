@@ -11,7 +11,7 @@ public class DuelR implements Mode {
 	
 	private static Logger logger = Logger.getLogger(Logger.class);
 
-	public void run() {
+	public static void run(Properties properties) {
 
 		User gamer1 = new User();
 		IA gamer2 = new IA();
@@ -27,8 +27,6 @@ public class DuelR implements Mode {
 			System.out.print(code.get(i));
 		}
 
-		Properties properties = new Properties();
-
 		try {
 			FileInputStream in = new FileInputStream("D://workspace/fr.projet3/src/main/resources/config.properties");
 			properties.load(in);
@@ -40,12 +38,11 @@ public class DuelR implements Mode {
 		int nombreEssais = Integer.parseInt(properties.getProperty("nombreEssais"));
 		logger.info("Chargement des propriétés : "+"nombre d'essais : "+nombreEssais);
 
-		String developerMode = properties.getProperty("developerMode");
-		if (developerMode.equals("true")) {
+		if(properties.get("developerMode").equals("true")) {
 			System.out.print("La combinaison de IA est : ");
 			for (int i = 0; i < 4; i++) {
 				System.out.print(code.get(i));
-			}			
+			}
 		}
 
 		ArrayList<Integer> propositionIA = null;
@@ -108,5 +105,11 @@ public class DuelR implements Mode {
 			}
 			nombreEssais--;
 		}
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
 	}
 }

@@ -11,15 +11,13 @@ public class ChallengerM implements Mode {
 	
 	private static Logger logger = Logger.getLogger(Logger.class);
 
-	public void run() {
+	public static void run(Properties properties) {
 
 		User gamer1 = new User();
 		IA gamer2 = new IA();
 
 		// générer une combinaison aléatoire
 		ArrayList<Integer> code = gamer2.generateCode();
-
-		Properties properties = new Properties();
 
 		try {
 			FileInputStream in = new FileInputStream("D://workspace/fr.projet3/src/main/resources/config.properties");
@@ -32,12 +30,11 @@ public class ChallengerM implements Mode {
 		int nombreEssaisM = Integer.parseInt(properties.getProperty("nombreEssaisM"));
 		logger.info("Chargement des propriétés : "+"nombre d'essais : "+nombreEssaisM);
 		
-		String developerMode = properties.getProperty("developerMode");
-		if (developerMode.equals("true")) {
+		if(properties.get("developerMode").equals("true")) {
 			System.out.print("La combinaison de IA est : ");
 			for (int i = 0; i < 4; i++) {
 				System.out.print(code.get(i));
-			}			
+			}
 		}
 
 		while (nombreEssaisM > 0) {
@@ -49,14 +46,14 @@ public class ChallengerM implements Mode {
 			int bienPlace = 0;
 			int present = 0;
 
-			// vérification de la proposition");
+			// vérification de la proposition
 			System.out.print("Proposition : ");
 			for (int j = 0; j < 4; j++) {
 				System.out.print(proposition.get(j));
 			}
 			System.out.print(" -> réponse : ");
 
-			// Etape 1 : parcourir la proposition
+			// parcourir la proposition
 			for (int i = 0; i < 4; i++) {
 				int value = proposition.get(i);
 				if (code.get(i) == value) {
@@ -84,5 +81,11 @@ public class ChallengerM implements Mode {
 				}
 			}
 		}
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
 	}
 }
