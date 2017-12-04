@@ -73,8 +73,7 @@ public class Main {
 						System.out.println("Vous devez trouver la combinaison secrète de l'ordinateur.");
 						logger.info("L'utilisateur a choisi le mode challenger.");
 						modeGame = new ChallengerR();
-						ChallengerR.run(properties);
-
+						
 					} else if (choice == '2' && game == '1') {
 						System.out.println("Vous avez choisi " + choiceD);
 						System.out.println("C'est à l'ordinateur de trouver votre combinaison secrète.");
@@ -86,14 +85,12 @@ public class Main {
 						System.out.println("L'ordinateur et vous jouez tour à tour, le premier à trouver la combinaison secrète de l'autre a gagné.");
 						logger.info("L'utilisateur a choisi le mode duel.");
 						modeGame = new DuelR();
-						DuelR.run(properties);
 
 					} else if (choice == '1' && game == '2') {
 						System.out.println("Vous avez choisi " + choiceC);
 						System.out.println("Vous devez trouver la combinaison secrète de l'ordinateur.");
 						logger.info("L'utilisateur a choisi le mode challenger.");
 						modeGame = new ChallengerM();
-						ChallengerM.run(properties);
 
 					} else if (choice == '2' && game == '2') {
 						System.out.println("Vous avez choisi " + choiceD);
@@ -105,10 +102,9 @@ public class Main {
 						System.out.println("Vous avez choisi " + choiceDu);
 						System.out.println("L'ordinateur et vous jouez tour à tour, le premier à trouver la combinaison secrète de l'autre a gagné.");
 						logger.info("L'utilisateur a choisi le mode duel.");
-						modeGame = new DuelM();
-						DuelM.run(properties);
+						modeGame = new DuelM();						
 					} 
-					modeGame.run();
+					modeGame.run(properties);
 										
 					do {
 						System.out.println();

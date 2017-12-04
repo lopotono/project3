@@ -11,7 +11,7 @@ public class DuelM implements Mode {
 	
 	private static Logger logger = Logger.getLogger(Logger.class);
 
-	public static void run(Properties properties) {
+	public void run(Properties properties) {
 
 		User gamer1 = new User();
 		IA gamer2 = new IA();
@@ -108,12 +108,10 @@ public class DuelM implements Mode {
 				nombreEssaisM = 0;
 			}
 			nombreEssaisM--;
+			
+			if (nombreEssaisM == 0) {
+				System.out.print("PERDU !!!!");				
+			}
 		}
-	}
-
-	@Override
-	public void run() {
-		// TODO Auto-generated method stub
-		
-	}
+	}	
 }

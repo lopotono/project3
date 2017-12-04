@@ -11,7 +11,7 @@ public class DefenserM implements Mode {
 	
 	private static Logger logger = Logger.getLogger(Logger.class);
 
-	public void run() {
+	public void run(Properties properties) {
 
 		User gamer1 = new User();
 		IA gamer2 = new IA();
@@ -20,9 +20,7 @@ public class DefenserM implements Mode {
 		System.out.println("\nSaisir une combinaison à 4 chiffres : ");
 		logger.info("L'utilisateur a saisi une combinaison.");
 
-		ArrayList<Integer> code = gamer1.getCode();
-
-		Properties properties = new Properties();
+		ArrayList<Integer> code = gamer1.getCode();		
 
 		try {
 			FileInputStream in = new FileInputStream("D://workspace/fr.projet3/src/main/resources/config.properties");

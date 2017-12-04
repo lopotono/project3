@@ -11,7 +11,7 @@ public class DefenserR implements Mode {
 
 	private static Logger logger = Logger.getLogger(Logger.class);
 
-	public void run() {
+	public void run(Properties properties) {
 
 		User gamer1 = new User();
 		IA gamer2 = new IA();
@@ -21,8 +21,6 @@ public class DefenserR implements Mode {
 		logger.info("L'utilisateur a saisi une combinaison.");
 
 		ArrayList<Integer> code = gamer1.getCode();
-
-		Properties properties = new Properties();
 
 		try {
 			FileInputStream in = new FileInputStream("D://workspace/fr.projet3/src/main/resources/config.properties");
