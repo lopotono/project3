@@ -6,10 +6,10 @@ import java.util.Scanner;
 public class User {
 
 	public ArrayList<Integer> getCode() {
-
+				
 		Scanner scanner = new Scanner(System.in);
 		String str = scanner.nextLine();
-
+		do {
 		char[] tab = str.toCharArray();
 		ArrayList<Integer> code = new ArrayList<Integer>();
 		code.add(Integer.parseInt(Character.toString(tab[0])));
@@ -18,6 +18,7 @@ public class User {
 		code.add(Integer.parseInt(Character.toString(tab[3])));
 										
 		return code;
+		} while (str.length() != 4);
 	}
 
 	public ArrayList<Integer> getCode(ArrayList<Integer> previousCode, String resultUser) {

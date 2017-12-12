@@ -20,17 +20,18 @@ public class UserM {
 			System.out.println("Erreur");
 		}
 
-		int nombreChiffres = Integer.parseInt(properties.getProperty("nombreChiffres"));
-
 		Scanner scanner = new Scanner(System.in);
 		String str = scanner.nextLine();
+		int nombreChiffres = Integer.parseInt(properties.getProperty("nombreChiffres"));
 
-		char[] tab = str.toCharArray();
+		do {
+			char[] tab = str.toCharArray();
 
-		ArrayList<Integer> code = new ArrayList<Integer>();
-		for (int i = 0; i < nombreChiffres; i++) {
-		code.add(Integer.parseInt(Character.toString(tab[i])));
-		}
-		return code;
+			ArrayList<Integer> code = new ArrayList<Integer>();
+			for (int i = 0; i < nombreChiffres; i++) {
+				code.add(Integer.parseInt(Character.toString(tab[i])));
+			}
+			return code;
+		} while (str.length() != nombreChiffres);
 	}
 }

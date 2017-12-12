@@ -1,7 +1,5 @@
 package main;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
 
@@ -25,14 +23,6 @@ public class DuelR implements Mode {
 		System.out.print("Votre combinaison : ");
 		for (int i = 0; i < 4; i++) {
 			System.out.print(code.get(i));
-		}
-
-		try {
-			FileInputStream in = new FileInputStream("D://workspace/fr.projet3/src/main/resources/config.properties");
-			properties.load(in);
-			in.close();
-		} catch (IOException e) {
-			System.out.println("Erreur");
 		}
 
 		int nombreEssais = Integer.parseInt(properties.getProperty("nombreEssais"));

@@ -1,7 +1,5 @@
 package main;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
 
@@ -18,15 +16,7 @@ public class ChallengerM implements Mode {
 
 		// générer une combinaison aléatoire
 		ArrayList<Integer> code = gamer2.generateCode();
-
-		try {
-			FileInputStream in = new FileInputStream("D://workspace/fr.projet3/src/main/resources/config.properties");
-			properties.load(in);
-			in.close();
-		} catch (IOException e) {
-			System.out.println("Erreur");
-		}
-
+		
 		int nombreEssaisM = Integer.parseInt(properties.getProperty("nombreEssaisM"));
 		logger.info("Chargement des propriétés : " + "nombre d'essais : " + nombreEssaisM);
 
@@ -41,11 +31,11 @@ public class ChallengerM implements Mode {
 		}
 
 		while (nombreEssaisM > 0) {
-
+						
 			System.out.println("\nSaisir une combinaison à " + nombreChiffres + " chiffres :");
-			ArrayList<Integer> proposition = gamer1.getCode();
+			ArrayList<Integer> proposition = gamer1.getCode();			
 			logger.info("L'utilisateur a saisi une combinaison.");
-
+												
 			int bienPlace = 0;
 			int present = 0;
 			// vérification de la proposition

@@ -1,7 +1,5 @@
 package main;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
 
@@ -24,14 +22,6 @@ public class DefenserM implements Mode {
 		logger.info("L'utilisateur a saisi une combinaison.");
 
 		ArrayList<Integer> code = gamer1.getCode();
-
-		try {
-			FileInputStream in = new FileInputStream("D://workspace/fr.projet3/src/main/resources/config.properties");
-			properties.load(in);
-			in.close();
-		} catch (IOException e) {
-			System.out.println("Erreur");
-		}
 
 		int nombreEssaisM = Integer.parseInt(properties.getProperty("nombreEssaisM"));
 		logger.info("Chargement des propriétés : " + "nombre d'essais : " + nombreEssaisM);

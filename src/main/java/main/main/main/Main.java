@@ -15,7 +15,14 @@ public class Main {
 
 		new FileLog();
 		Parametres param = new Parametres();
-		Properties properties = param.getProperties();		
+		Properties properties = param.getProperties();	
+		
+		if(args.length > 0) {
+			if(args[0].equals(true))
+			{
+				properties.setProperty("DevelopperMode", "true");
+			}
+		}
 				
 		String game1 = "Recherche+/-";
 		String game2 = "Mastermind";
