@@ -24,7 +24,14 @@ Lancement et compilation du programme :
 
 - Ouvrir une console Windows.
 - Se positionner sur le répertoire où se trouve le code source de l'application.
-- Compiler le code source à l'aide de la commande javac "codesource".
+- Compiler le code source à l'aide de la commande javac Main.java
 - Le résultat de la compilation crée un fichier dans le répertoire du code source.
-- Toujours dans la console on exécute le programme avec la commande java "nomDuFichier".
+- Toujours dans la console on exécute le programme avec la commande java Main
+
+Lancement du programme avec le mode développeur (la combinaison de IA est affichée au début du programme) :
+
+- Ouvrir une console Windows.
+- Faire les étapes pour la compilation.
+- Saisir la commande java Main true
+
 
