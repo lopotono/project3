@@ -1,7 +1,5 @@
-package main;
+package p3;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
 import java.util.Random;
@@ -12,16 +10,9 @@ public class IA {
 		
 		Random r = new Random();
 		
-		Properties properties = new Properties();
-		
-		try {
-			FileInputStream in = new FileInputStream("D://workspace/fr.projet3/src/main/resources/config.properties");
-			properties.load(in);
-			in.close();
-		} catch (IOException e) {
-			System.out.println("Erreur");
-		}
-		
+		Parametres param = new Parametres();
+		Properties properties = param.getProperties();
+						
 		int nombreChiffres = Integer.parseInt(properties.getProperty("nombreChiffres"));
 						
 		ArrayList<Integer> code = new ArrayList<Integer>();
@@ -40,11 +31,17 @@ public class IA {
 		if (previousCode == null && result == null) {
 			return generateCode();
 		}
+		
+		Parametres param = new Parametres();
+		Properties properties = param.getProperties();
+		
 		ArrayList<Integer> code = new ArrayList<Integer>();
+		
+		int nombreCases = Integer.parseInt(properties.getProperty("nombreCases"));
 
 		char[] tabResult = result.toCharArray();
 
-		for (int i = 0; i < 4; i++) {
+		for (int i = 0; i < nombreCases; i++) {
 			Random rand = new Random();
 			if (tabResult[i] == '=') {
 				code.add(previousCode.get(i));
