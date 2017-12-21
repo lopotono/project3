@@ -1,4 +1,4 @@
-package main;
+package p3;
 
 import java.util.Properties;
 
