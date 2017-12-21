@@ -24,9 +24,20 @@ Lancement et compilation du programme :
 
 - Ouvrir une console Windows.
 - Se positionner sur le répertoire où se trouve le code source de l'application.
-- Compiler le code source à l'aide de la commande javac Main.java
-- Le résultat de la compilation crée un fichier dans le répertoire du code source.
-- Toujours dans la console on exécute le programme avec la commande java Main
+- Compiler le code source à l'aide de la commande : 
+javac -classpath lib\log4j-1.2.17.jar -d . src\p3\*.java
+
+Création d'un fichier .jar :
+- Faire un fichier MANIFEST.MF
+Manifest-Version: 1.0
+Main-Class: p3.Main
+Class-Path: /workspace/p3/lib/log4j-1.2.17.jar
+
+- Taper les lignes de commande suivantes :
+jar cvmf META-INF\MANIFEST.MF P3.jar p3\*.class
+et
+java -jar P3.jar
+
 
 Lancement du programme avec le mode développeur (la combinaison de IA est affichée au début du programme) :
 
