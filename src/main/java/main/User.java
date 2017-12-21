@@ -1,7 +1,5 @@
-package main;
+package p3;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
 import java.util.Scanner;
@@ -21,7 +19,7 @@ public class User {
 		do {
 			str = scanner.nextLine();
 			System.out.println("\nSaisir une combinaison à 4 chiffres : ");
-			logger.error("L'utilisateur n'a saisi 4 chiffres.");
+			logger.error("L'utilisateur n'a pas saisi 4 chiffres.");
 			char[] tab = str.toCharArray();
 			code.clear();
 			for (int i = 0; i < str.length(); i++) {
@@ -33,16 +31,9 @@ public class User {
 
 	public ArrayList<Integer> getCodeM() {
 
-		Properties properties = new Properties();
-
-		try {
-			FileInputStream in = new FileInputStream("D://workspace/fr.projet3/src/main/resources/config.properties");
-			properties.load(in);
-			in.close();
-		} catch (IOException e) {
-			System.out.println("Erreur");
-		}
-
+		Parametres param = new Parametres();
+		Properties properties = param.getProperties();
+		
 		Scanner scanner = new Scanner(System.in);
 		int nombreChiffres = Integer.parseInt(properties.getProperty("nombreChiffres"));
 
@@ -65,12 +56,17 @@ public class User {
 		if (previousCode == null && resultUser == null) {
 			return getCode();
 		}
+		
+		Parametres param = new Parametres();
+		Properties properties = param.getProperties();
 
 		ArrayList<Integer> codeUser = new ArrayList<Integer>();
+		
+		int nombreCases = Integer.parseInt(properties.getProperty("nombreCases"));
 
 		char[] tabResultUser = resultUser.toCharArray();
 
-		for (int i = 0; i < 4; i++) {
+		for (int i = 0; i < nombreCases; i++) {
 			if (tabResultUser[i] == '=') {
 				codeUser.add(previousCode.get(i));
 			} else if (tabResultUser[i] == '-') {
