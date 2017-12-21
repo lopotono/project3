@@ -1,4 +1,4 @@
-package main;
+package p3;
 
 import java.util.ArrayList;
 import java.util.Properties;
@@ -70,4 +70,3 @@ public class ChallengerR implements Mode {
 		}
 	}		
 }
-
