@@ -11,7 +11,7 @@ public class Parametres {
 		Properties properties = new Properties();
 
 		try {
-			String propertyFile = System.getProperty("user.dir") + "\\" + "resources\\config.properties";
+			String propertyFile = System.getProperty("user.dir") + "\\" + "src\\resources\\config.properties";
 			FileInputStream in = new FileInputStream(propertyFile);
 			properties.load(in);
 			in.close();
