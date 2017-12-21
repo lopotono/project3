@@ -1,4 +1,4 @@
-package main;
+package p3;
 
 import java.util.Properties;
 import java.util.Scanner;
@@ -10,8 +10,9 @@ public class Main {
 	private static Logger logger = Logger.getLogger(Logger.class);
 
 	public static void main(String[] args) {
-
-		DOMConfigurator.configure("D://workspace/fr.projet3/src/main/resources/log4j.xml");
+		
+		String log4jfile = System.getProperty("user.dir") + "\\" + "resources\\log4j.xml";
+		DOMConfigurator.configure(log4jfile);
 
 		new FileLog();
 		Parametres param = new Parametres();
