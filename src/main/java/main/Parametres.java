@@ -1,4 +1,4 @@
-package main;
+package p3;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,11 +11,13 @@ public class Parametres {
 		Properties properties = new Properties();
 
 		try {
-			FileInputStream in = new FileInputStream("D://workspace/fr.projet3/src/main/resources/config.properties");
+			String propertyFile = System.getProperty("user.dir") + "\\" + "resources\\config.properties";
+			FileInputStream in = new FileInputStream(propertyFile);
 			properties.load(in);
 			in.close();
 		} catch (IOException e) {
 			System.out.println("Erreur de chargement du fichier de configuration !");
+			System.out.println(e.getMessage());
 		}
 		return properties;
 	}
