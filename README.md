@@ -24,8 +24,8 @@ Lancement et compilation du programme :
 
 - Ouvrir une console Windows.
 - Se positionner sur le répertoire où se trouve le code source de l'application.
-- Compiler le code source à l'aide de la commande : 
-javac -classpath lib\log4j-1.2.17.jar -d . src\p3\*.java
+- Compiler le code source à l'aide de la commande : javac -classpath lib\log4j-1.2.17.jar -d . src\p3\*.java
+
 
 Création d'un fichier .jar :
 - Faire un fichier MANIFEST.MF
