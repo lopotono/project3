@@ -19,9 +19,9 @@ public class Main {
 		Properties properties = param.getProperties();	
 		
 		if(args.length > 0) {
-			if(args[0].equals(true))
+			if(args[0].equals("true"))
 			{
-				properties.setProperty("DevelopperMode", "true");
+				properties.setProperty("developerMode", "true");
 			}
 		}
 				
