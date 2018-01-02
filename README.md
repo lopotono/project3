@@ -35,14 +35,15 @@ Class-Path: /workspace/p3/lib/log4j-1.2.17.jar
 
 - Taper les lignes de commande suivantes :
 jar cvmf META-INF\MANIFEST.MF P3.jar p3\*.class
-et
+
+- Lancement du programme :
 java -jar P3.jar
 
 
-Lancement du programme avec le mode développeur (la combinaison de IA est affichée au début du programme) :
+Lancement du programme en mode développeur avec argument en ligne de commande (la combinaison de IA est affichée au début du programme) :
 
 - Ouvrir une console Windows.
 - Faire les étapes pour la compilation.
-- Saisir la commande java Main true
+- Saisir la commande java -jar P3.jar true
 
 
