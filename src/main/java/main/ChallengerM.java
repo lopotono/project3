@@ -32,7 +32,7 @@ public class ChallengerM implements Mode {
 
 		while (nombreEssaisM > 0) {
 			
-			System.out.println("\nSaisir une combinaison à " + nombreChiffres + " chiffres :");
+			//System.out.println("\nSaisir une combinaison à " + nombreChiffres + " chiffres :");
 			ArrayList<Integer> proposition = gamer1.getCodeM();
 			logger.info("L'utilisateur a saisi une combinaison.");
 						

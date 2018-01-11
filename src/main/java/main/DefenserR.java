@@ -15,7 +15,7 @@ public class DefenserR implements Mode {
 		IA gamer2 = new IA();
 
 		// Saisir la combinaison
-		System.out.println("\nSaisir une combinaison à 4 chiffres : ");
+		//System.out.println("\nSaisir une combinaison à 4 chiffres : ");
 		logger.info("L'utilisateur a saisi une combinaison.");
 
 		ArrayList<Integer> code = gamer1.getCode();

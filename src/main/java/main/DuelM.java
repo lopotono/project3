@@ -19,7 +19,7 @@ public class DuelM implements Mode {
 
 		ArrayList<Integer> codeUser = gamer2.generateCode();
 
-		System.out.println("\nSaisir la combinaison de " + nombreChiffres + " chiffres à faire deviner à IA : ");
+		System.out.println("\nSaisir une combinaison à faire deviner à IA");
 		ArrayList<Integer> code = gamer1.getCodeM();
 		logger.info("L'utilisateur a saisi une combinaison à faire deviner à IA.");
 
@@ -44,7 +44,7 @@ public class DuelM implements Mode {
 		while (nombreEssaisM > 0) {
 
 			// proposition user
-			System.out.println("\nSaisir une proposition à " + nombreChiffres + " chiffres :");
+			//System.out.println("\nSaisir une proposition à " + nombreChiffres + " chiffres :");
 			ArrayList<Integer> propositionUser = gamer1.getCodeM();
 			logger.info("L'utilisateur a saisi sa proposition.");
 

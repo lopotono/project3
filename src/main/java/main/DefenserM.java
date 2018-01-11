@@ -18,7 +18,7 @@ public class DefenserM implements Mode {
 		logger.info("Chargement des propriétés : " + "nombre de chiffres : " + nombreChiffres);
 
 		// Saisir une combinaison
-		System.out.println("\nSaisir une combinaison à " + nombreChiffres + " chiffres :");
+		//System.out.println("\nSaisir une combinaison à " + nombreChiffres + " chiffres :");
 		logger.info("L'utilisateur a saisi une combinaison.");
 
 		ArrayList<Integer> code = gamer1.getCodeM();

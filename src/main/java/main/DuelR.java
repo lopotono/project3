@@ -2,7 +2,6 @@ package p3;
 
 import java.util.ArrayList;
 import java.util.Properties;
-
 import org.apache.log4j.Logger;
 
 public class DuelR implements Mode {
@@ -16,7 +15,7 @@ public class DuelR implements Mode {
 
 		ArrayList<Integer> codeUser = gamer2.generateCode();
 
-		System.out.println("\nSaisir la combinaison à faire deviner à IA : ");
+		System.out.println("\nSaisir la combinaison à faire deviner à IA");
 		ArrayList<Integer> code = gamer1.getCode();
 		logger.info("L'utilisateur a saisi une combinaison à faire deviner à IA.");
 
@@ -43,7 +42,7 @@ public class DuelR implements Mode {
 		// lancement du jeu
 		while (nombreEssais > 0) {
 
-			System.out.println("\nSaisir une proposition :");
+			//System.out.println("\nSaisir une proposition :");
 			ArrayList<Integer> propositionUserDuel = gamer1.getCode();
 
 			System.out.print("\nProposition user : ");

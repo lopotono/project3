@@ -25,11 +25,11 @@ public class ChallengerR implements Mode {
 			for (int i = 0; i < 4; i++) {
 				System.out.print(code.get(i));
 			}			
-		} 						
+		}		
 		// Lancer le jeu
 		while (nombreEssais > 0) {
 
-			System.out.println("\nSaisir une combinaison à 4 chiffres : ");
+			//System.out.println("\nSaisir une combinaison à 4 chiffres : ");
 			ArrayList<Integer> proposition = gamer1.getCode();
 			logger.info("L'utilisateur a saisi une combinaison.");
 
