@@ -16,8 +16,10 @@ public class User {
 		String str = null;
 
 		ArrayList<Integer> code = new ArrayList<Integer>();
+		
 		do {
 			str = scanner.nextLine();
+			System.out.println("\nIl faut saisir une combinaison à 4 chiffres : ");
 			logger.error("L'utilisateur n'a pas saisi 4 chiffres.");
 			char[] tab = str.toCharArray();
 			code.clear();
@@ -40,6 +42,7 @@ public class User {
 		String str = null;
 		do {
 			str = scanner.nextLine();
+			System.out.println("\nSaisir une combinaison à " + nombreChiffres + " chiffres :");
 			logger.error("L'utilisateur n'a pas saisi le nombre de chiffres demandé : "+nombreChiffres+" chiffres.");
 			char[] tab = str.toCharArray();
 			code.clear();
